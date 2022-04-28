@@ -1,0 +1,22 @@
+body nav ul {
+    list-style-type: none;
+}
+
+body nav ul li.dropdown-header {
+    display: inline-block;
+}
+
+body nav ul li.dropdown-header a {
+    cursor: pointer;
+}
+
+ul.dropdown-content {
+    padding-left: 0px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+li.dropdown-header:hover ul.dropdown-content {
+    display: block;
+}
